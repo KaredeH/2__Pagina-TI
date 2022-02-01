@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+}
+
+h2, b {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 400;
+}
+
+a {
+  color: #ea4c88;
+}
+
+header {
+  padding: 50px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__title {
+  font-size: 36px;
+  color: #ea4c88;
+}
+
+.header__title, .header__description, .header__mods, .header__description-option, .header__options {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.header__description-option {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  color: #999999;
+}
+
+.header__options a {
+  font-weight: 100;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.header__mods img {
+  cursor: pointer;
+}
+
+.header__options {
+  margin-bottom: 25px;
+}
+
+li a {
+  color: #666666;
+  font-size: 12px;
+  transition: 0.1s;
+}
+
+.navigation {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  border-top: 0.1px solid #88888888;
+  border-bottom: 0.1px solid #88888888;
+  height: 53px;
+}
+
+.navigation > li, .navigation ul {
+  padding: 15px 0 0 0;
+  margin: 0 25px 15px 0;
+}
+
+.navigation a:hover {
+  color: #ea4c88;
+}
+
+.rezero__li li {
+  width: 100%;
+}
+
+.rezero__li-div {
+  text-align: left;
+  flex-wrap: wrap;
+  max-width: 200px;
+  display: none;
+  position: absolute;
+}
+
+.rezero__li:hover div {
+  display: flex;
+}
+
+.navigation ul a {
+  margin-top: 10px;
+  color: #666666;
+  font-size: 12px;
+  transition: 0.1s;
+}
+
+.rezero__li li {
+  margin-top: 20px;
+}
+
+.otrastraducciones__li li {
+  width: 100%;
+}
+
+.otrastraducciones__li-div {
+  text-align: left;
+  flex-wrap: wrap;
+  max-width: 250px;
+  display: none;
+  position: absolute;
+}
+
+.otrastraducciones__li:hover div {
+  display: flex;
+}
+
+.otrastraducciones__li li {
+  margin-top: 20px;
+}
+
+.recomendaciones__li li {
+  width: 100%;
+}
+
+.recomendaciones__li-div {
+  text-align: left;
+  flex-wrap: wrap;
+  max-width: 250px;
+  display: none;
+  position: absolute;
+}
+
+.recomendaciones__li:hover div {
+  display: flex;
+}
+
+.recomendaciones__li li {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=comp.css.map */
